@@ -1,46 +1,103 @@
+/* Общий стиль */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f9f4ef;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
 }
 
+/* Шапка */
 header {
-    background: #c0392b;
+    background-color: #B22222;
     padding: 20px;
     text-align: center;
-    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFD700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 0 15px #B22222;
 }
 
-h1 {
-    margin: 0;
+/* Навигация */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #111111;
+    padding: 10px;
+    box-shadow: 0 0 10px #B22222;
 }
 
-.menu {
-    padding: 20px;
-}
-
-.food-item {
-    background: white;
-    padding: 15px;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-}
-
-.food-item h2 {
-    margin-top: 0;
-    color: #c0392b;
-}
-
-.button {
-    padding: 10px 15px;
-    background: #c0392b;
-    color: white;
+nav a {
+    color: #FFD700;
     text-decoration: none;
-    border-radius: 5px;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: 0.3s;
 }
 
-.button:hover {
-    background: #a83224;
+nav a:hover {
+    color: #ffffff;
+}
+
+/* Блоки */
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Заголовки */
+h2 {
+    color: #FFD700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Кнопки */
+button, .btn {
+    background-color: #B22222;
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, .btn:hover {
+    background-color: #8B1A1A;
+}
+
+/* Карточки меню */
+.card {
+    background-color: #111111;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    border: 2px solid #B22222;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #B22222;
+}
+
+.card h3 {
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #cccccc;
+}
+
+/* Подвал */
+footer {
+    background-color: #111111;
+    text-align: center;
+    padding: 15px;
+    color: #888888;
+    border-top: 1px solid #B22222;
 }
