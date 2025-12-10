@@ -1,31 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <title>Гриль Таун — шашлыки и доставка Новочеркасск</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гриль Таун</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header style="background-image:url('images/header.jpg'); background-size:cover; background-position:center; height:380px; display:flex; justify-content:center; align-items:center;">
-    <h1 style="color:white; font-size:64px; text-shadow:0 0 10px #000;">Гриль Таун</h1>
-</header>
+    <!-- HEADER -->
+    <header>
+        <h1>Гриль Таун</h1>
+        <p>Лучший шашлык и блюда на мангале в городе!</p>
+        <nav>
+            <a href="#home" class="btn">Главная</a>
+            <a href="#menu" class="btn">Меню</a>
+            <a href="#contact" class="btn">Контакты</a>
+        </nav>
+    </header>
 
-<nav style="display:flex; justify-content:center; background:#8b0000; padding:15px;">
-    <a style="color:white; margin:0 20px; text-decoration:none; font-size:20px;" href="index.html">Главная</a>
-    <a style="color:white; margin:0 20px; text-decoration:none; font-size:20px;" href="menu.html">Меню</a>
-    <a style="color:white; margin:0 20px; text-decoration:none; font-size:20px;" href="order.html">Заказать</a>
-    <a style="color:white; margin:0 20px; text-decoration:none; font-size:20px;" href="contact.html">Контакты</a>
-</nav>
+    <!-- MAIN SECTION -->
+    <main>
+        <!-- HOME -->
+        <section id="home">
+            <h2>Добро пожаловать в Гриль Таун!</h2>
+            <p>Сочные шашлыки, шаурма на углях и свежие гарниры каждый день.</p>
+            <img src="img/shashlyk.jpg" alt="Шашлык" class="main-img">
+        </section>
 
-<div class="container" style="width:90%; max-width:1000px; margin:40px auto;">
-    <h2>Добро пожаловать в Гриль Таун</h2>
-    <p>Свежие шашлыки, мангал, гриль — доставка по городу. Всегда горячо, сочно и вкусно!</p>
-    <a style="display:inline-block; background:#8b0000; color:white; padding:12px 20px; text-decoration:none; border-radius:8px;" href="menu.html">Перейти к меню</a>
-</div>
+        <!-- MENU -->
+        <section id="menu">
+            <h2>Меню</h2>
 
-<footer style="background:#8b0000; color:white; text-align:center; padding:20px; margin-top:40px;">
-    ©️ 2025 Гриль Таун
-</footer>
+            <h3>Шаурма на углях</h3>
+            <div class="menu-category">
+                <h4>Куриная</h4>
+                <p>Мини: Курица 100гр, помидор, огурец, микс салата, белый соус — 200 руб</p>
+                <p>Стандарт: Курица 150гр, помидор, огурец, микс салата, белый соус — 300 руб</p>
+
+                <h4>Свиная</h4>
+                <p>Мини: Свинина 100гр, помидор, огурец, микс салата, белый соус — 210 руб</p>
+                <p>Стандарт: Свинина 150гр, помидор, огурец, микс салата, белый соус — 310 руб</p>
+
+                <h4>Говяжья</h4>
+                <p>Мини: Говядина 100гр, помидор, огурец, микс салата, белый соус — 370 руб</p>
+                <p>Стандарт: Говядина 150гр, помидор, огурец, микс салата, белый соус — 490 руб</p>
+            </div>
+
+            <h3>Шашлык в лаваше</h3>
+            <div class="menu-category">
+                <p>Курица 200гр, маринованный лук, белый соус — 310 руб</p>
+                <p>Свинина 200гр, маринованный лук, белый соус — 330 руб</p>
+            </div>
+
+            <h3>Блюда на мангале</h3>
+            <div class="menu-category">
+                <h4>Шашлык из свинины (100гр)</h4>
+                <p>Шея — 130 руб</p>
+                <p>Мякоть, антрекот — 125 руб</p>
+                <p>Ребра — 120 руб</p>
+
+                <h4>Шашлык из курицы (100гр)</h4>
+                <p>Крылья — 90 руб</p>
+                <p>Ножки — 90 руб</p>
+                <p>Бедра — 90 руб</p>
+
+                <h4>Люля Кебаб (100гр)</h4>
+                <p>Куриный — 110 руб</p>
+                <p>Свиной — 130 руб</p>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Телефон: 8-995-290-62-62</p>
+            <p>Адрес: Платовский 77</p>
+            <p>Email: Griltaun@mail.ru</p>
+            <p>Часы работы: с 7:00 до 19:00</p>
+            <p>Доставка по городу</p>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>©️ 2025 Гриль Таун. Все права защищены.</p>
+    </footer>
 
 </body>
 </html>
