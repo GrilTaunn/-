@@ -1,103 +1,104 @@
-/* Общий стиль */
+/* Общие стили */
 body {
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #fff5ee;
+    color: #333;
 }
 
-/* Шапка */
+/* HEADER */
 header {
-    background-color: #B22222;
-    padding: 20px;
+    background-color: #ff4c00;
+    color: white;
     text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    color: #FFD700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    box-shadow: 0 0 15px #B22222;
+    padding: 30px 20px;
 }
 
-/* Навигация */
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #111111;
-    padding: 10px;
-    box-shadow: 0 0 10px #B22222;
+header p {
+    margin-top: 5px;
+    font-weight: 400;
 }
 
-nav a {
-    color: #FFD700;
-    text-decoration: none;
-    margin: 0 20px;
-    font-size: 18px;
-    transition: 0.3s;
+header nav {
+    margin-top: 15px;
 }
 
-nav a:hover {
-    color: #ffffff;
-}
-
-/* Блоки */
-section {
-    padding: 30px;
-    text-align: center;
-}
-
-/* Заголовки */
-h2 {
-    color: #FFD700;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+header nav .btn {
+    margin: 0 10px;
 }
 
 /* Кнопки */
 button, .btn {
-    background-color: #B22222;
-    color: #ffffff;
-    padding: 12px 25px;
+    background-color: #ff6347;
+    color: white;
     border: none;
-    border-radius: 6px;
+    padding: 12px 25px;
+    font-size: 16px;
     cursor: pointer;
-    font-size: 18px;
-    transition: 0.3s;
+    border-radius: 5px;
     text-decoration: none;
-    display: inline-block;
+    transition: 0.3s;
 }
 
 button:hover, .btn:hover {
-    background-color: #8B1A1A;
+    background-color: #e55330;
 }
 
-/* Карточки меню */
-.card {
-    background-color: #111111;
+/* MAIN SECTIONS */
+main {
     padding: 20px;
-    margin: 20px auto;
-    width: 90%;
-    max-width: 400px;
-    border: 2px solid #B22222;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #B22222;
+    text-align: center;
 }
 
-.card h3 {
-    color: #FFD700;
+main h2 {
+    color: #ff4c00;
     margin-bottom: 10px;
 }
 
-.card p {
-    color: #cccccc;
+main h3 {
+    color: #d84315;
+    margin-top: 25px;
 }
 
-/* Подвал */
+main h4 {
+    color: #ff7043;
+    margin-top: 15px;
+}
+
+main p {
+    max-width: 600px;
+    margin: 5px auto;
+}
+
+/* Главное фото */
+.main-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    margin-top: 15px;
+}
+
+.main-img:hover {
+    transform: scale(1.05);
+}
+
+/* MENU CATEGORY */
+.menu-category {
+    margin-bottom: 20px;
+}
+
+/* CONTACT */
+#contact p {
+    margin: 5px 0;
+}
+
+/* FOOTER */
 footer {
-    background-color: #111111;
+    background-color: #222;
+    color: white;
     text-align: center;
-    padding: 15px;
-    color: #888888;
-    border-top: 1px solid #B22222;
+    padding: 20px;
 }
