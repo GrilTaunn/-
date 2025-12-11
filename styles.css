@@ -17,11 +17,11 @@
 .home-text h1 {
     font-size: 48px;
     margin: 0;
-    color: #ff4c00;
+    color: #800000;
 }
 
 .home-text .city {
-    color: #800000; /* бордовый цвет для города */
+    color: black; /* бордовый цвет для города */
     font-weight: 600;
 }
 
