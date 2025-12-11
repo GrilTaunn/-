@@ -1,4 +1,86 @@
-/* Общие стили */
+/* /* Секция HOME с текстом слева */
+.home-section {
+    display: flex;
+    align-items: center; /* по вертикали по середине */
+    justify-content: space-between; /* текст слева, фото справа */
+    padding: 50px 20px;
+    flex-wrap: wrap; /* для адаптивности на маленьких экранах */
+}
+
+/* Текстовая часть */
+.home-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+/* Название шашлычки + город */
+.home-text h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #ff4c00;
+}
+
+.home-text .city {
+    color: #800000; /* бордовый цвет для города */
+    font-weight: 600;
+}
+
+/* Подзаголовок */
+.home-subtitle {
+    font-size: 20px;
+    margin: 15px 0 25px 0;
+}
+
+/* Кнопки */
+.home-buttons {
+    margin-bottom: 15px;
+}
+
+.menu-btn {
+    background-color: #800000; /* бордовый */
+}
+
+.contact-btn {
+    background-color: #ff6347; /* оранжево-красный, как у обычных кнопок */
+}
+
+.home-buttons .btn {
+    margin-right: 15px;
+}
+
+/* Мелкая надпись */
+.delivery-note {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Главное фото */
+.home-section .main-img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.home-section .main-img:hover {
+    transform: scale(1.05);
+}
+
+/* Адаптив для маленьких экранов */
+@media (max-width: 900px) {
+    .home-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-text {
+        max-width: 100%;
+    }
+    .home-section .main-img {
+        width: 80%;
+        margin-top: 20px;
+    }
+} стили */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
