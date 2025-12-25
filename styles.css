@@ -196,7 +196,9 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
     gap: 20px;
+    margin: 0 auto;
 }
 
 .menu-item {
