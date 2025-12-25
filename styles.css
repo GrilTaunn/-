@@ -155,7 +155,7 @@ main h4 {
     margin-top: 15px;
 }
 
-main p {
+main > p {
     max-width: 600px;
     margin: 5px auto;
 }
